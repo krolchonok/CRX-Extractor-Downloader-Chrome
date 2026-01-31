@@ -43,5 +43,11 @@
   },
   "status_network_error": {
     "message": "Ошибка сети."
+  },
+  "menu_download_crx": {
+    "message": "Скачать CRX для этого расширения"
+  },
+  "menu_download_zip": {
+    "message": "Скачать ZIP для этого расширения"
   }
 }

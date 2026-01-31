@@ -43,5 +43,11 @@
   },
   "status_network_error": {
     "message": "Network error."
+  },
+  "menu_download_crx": {
+    "message": "Download CRX for this extension"
+  },
+  "menu_download_zip": {
+    "message": "Download ZIP for this extension"
   }
 }

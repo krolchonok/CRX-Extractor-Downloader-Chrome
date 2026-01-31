@@ -216,9 +216,17 @@ function onClickEvent(info, tab) {
 chrome.contextMenus.onClicked.addListener(onClickEvent);
 
 chrome.runtime.onInstalled.addListener(function (details) {
+  const titleDownloadCrx = chrome.i18n.getMessage(
+    "menu_download_crx",
+    "Download CRX for this extension",
+  );
+  const titleDownloadZip = chrome.i18n.getMessage(
+    "menu_download_zip",
+    "Download ZIP for this extension",
+  );
   const parent = chrome.contextMenus.create({
-    title: "Download CRX for this extension",
-    contexts: ["all"],
+    title: titleDownloadCrx,
+    contexts: ["page"],
     id: "parent",
     documentUrlPatterns: [
       "https://chrome.google.com/webstore/detail/*",
@@ -226,8 +234,8 @@ chrome.runtime.onInstalled.addListener(function (details) {
     ],
   });
   chrome.contextMenus.create({
-    title: "Download CRX for this extension",
-    contexts: ["all"],
+    title: titleDownloadCrx,
+    contexts: ["page"],
     id: "crx",
     parentId: parent,
     documentUrlPatterns: [
@@ -237,8 +245,8 @@ chrome.runtime.onInstalled.addListener(function (details) {
   });
 
   chrome.contextMenus.create({
-    title: "Download CRX for this extension",
-    contexts: ["all"],
+    title: titleDownloadCrx,
+    contexts: ["page"],
     parentId: parent,
     id: "crxmicrosoft",
     documentUrlPatterns: [
@@ -246,8 +254,8 @@ chrome.runtime.onInstalled.addListener(function (details) {
     ],
   });
   chrome.contextMenus.create({
-    title: "Download ZIP for this extension",
-    contexts: ["all"],
+    title: titleDownloadZip,
+    contexts: ["page"],
     id: "zip",
     parentId: parent,
     documentUrlPatterns: [
