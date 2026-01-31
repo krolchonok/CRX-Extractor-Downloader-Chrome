@@ -1,0 +1,47 @@
+{
+  "download_zip_button": {
+    "message": "Download as ZIP"
+  },
+  "download_crx_button": {
+    "message": "Download as CRX"
+  },
+  "download_zip_title": {
+    "message": "Download extension in ZIP"
+  },
+  "download_crx_title": {
+    "message": "Download extension in CRX"
+  },
+  "info_text": {
+    "message": "Please open the extension page in the Chrome or Microsoft Edge add-on store to download extensions."
+  },
+  "convert_label": {
+    "message": "Convert from CRX to ZIP file"
+  },
+  "convert_title": {
+    "message": "Convert CRX to ZIP"
+  },
+  "download_zip_file_button": {
+    "message": "Download ZIP File"
+  },
+  "download_zip_file_title": {
+    "message": "Download ZIP File"
+  },
+  "status_start": {
+    "message": "Starting download..."
+  },
+  "status_downloading": {
+    "message": "Downloading CRX"
+  },
+  "status_converting": {
+    "message": "Converting to ZIP"
+  },
+  "status_complete": {
+    "message": "ZIP ready. Starting download..."
+  },
+  "status_failed": {
+    "message": "Download failed."
+  },
+  "status_network_error": {
+    "message": "Network error."
+  }
+}

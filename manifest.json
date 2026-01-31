@@ -1,0 +1,27 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "name": "CRX Downloader",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "default_locale": "en",
+  "description": "Download CRX from Chrome Web Store and other sources.",
+  "permissions": ["downloads", "contextMenus", "activeTab", "downloads"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://clients2.google.com/service/update2/crx*",
+    "*://clients2.googleusercontent.com/crx/download/*"
+  ],
+  "icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+
+  "action": {
+    "default_icon": "128.png",
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "download_zip_button": {
+    "message": "Скачать ZIP"
+  },
+  "download_crx_button": {
+    "message": "Скачать CRX"
+  },
+  "download_zip_title": {
+    "message": "Скачать расширение в ZIP"
+  },
+  "download_crx_title": {
+    "message": "Скачать расширение в CRX"
+  },
+  "info_text": {
+    "message": "Откройте страницу расширения в магазине Chrome или Microsoft Edge, чтобы скачать расширения."
+  },
+  "convert_label": {
+    "message": "Конвертировать CRX в ZIP"
+  },
+  "convert_title": {
+    "message": "Конвертировать CRX в ZIP"
+  },
+  "download_zip_file_button": {
+    "message": "Скачать ZIP файл"
+  },
+  "download_zip_file_title": {
+    "message": "Скачать ZIP файл"
+  },
+  "status_start": {
+    "message": "Начинаю скачивание..."
+  },
+  "status_downloading": {
+    "message": "Скачивание CRX"
+  },
+  "status_converting": {
+    "message": "Конвертация в ZIP"
+  },
+  "status_complete": {
+    "message": "ZIP готов. Запускаю скачивание..."
+  },
+  "status_failed": {
+    "message": "Скачивание не удалось."
+  },
+  "status_network_error": {
+    "message": "Ошибка сети."
+  }
+}
